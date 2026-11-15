@@ -97,7 +97,11 @@ export const site = {
     },
   ] as Experience[],
 
-  resume: { label: "View Full Résumé", href: "/resume.pdf" },
+  resume: {
+    label: "Download Résumé",
+    href: "/resume.pdf",
+    download: "Ansar_Tleubayev_CV.pdf",
+  },
 
   projects: [
     {

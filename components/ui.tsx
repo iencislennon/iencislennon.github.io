@@ -143,12 +143,21 @@ export function CardLink({
 }
 
 // Standalone "see more" link under a section.
-export function MoreLink({ href, label }: { href: string; label: string }) {
+export function MoreLink({
+  href,
+  label,
+  download,
+}: {
+  href: string;
+  label: string;
+  download?: string; // file name to save as; makes the link a download
+}) {
   return (
     <div className="mt-12">
       <a
         className="group inline-flex items-center font-semibold leading-tight text-slate-200"
         href={href}
+        download={download}
       >
         <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
           {label}
