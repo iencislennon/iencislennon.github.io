@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+<radialGradient id="ball" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#bfdbfe"/><stop offset="1" stop-color="#2563eb"/></radialGradient>
+<linearGradient id="teal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#99f6e4"/><stop offset=".5" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#115e59"/><stop offset="1" stop-color="#042f2e"/></linearGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="90"/></filter>
+<filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<circle cx="380" cy="380" r="300" fill="#1d4ed8" opacity=".45" filter="url(#glow)"/><circle cx="940" cy="330" r="280" fill="#14b8a6" opacity=".4" filter="url(#glow)"/><path d="M 110 150 h 470 a 40 40 0 0 1 40 40 v 150 a 40 40 0 0 1 -40 40 h -360 l -70 60 v -60 h -40 a 40 40 0 0 1 -40 -40 v -150 a 40 40 0 0 1 40 -40 z" fill="url(#blue)" stroke="#bfdbfe" stroke-width="6"/><rect x="150" y="205" width="380" height="30" rx="15" fill="#eff6ff"/><rect x="150" y="265" width="250" height="26" rx="13" fill="#bfdbfe" opacity=".75"/><path d="M 330 460 h 330 a 36 36 0 0 1 36 36 v 100 a 36 36 0 0 1 -36 36 h -330 a 36 36 0 0 1 -36 -36 v -100 a 36 36 0 0 1 36 -36 z" fill="url(#blue)" stroke="#bfdbfe" stroke-width="5" opacity=".6"/><rect x="340" y="505" width="270" height="26" rx="13" fill="#eff6ff" opacity=".7"/><rect x="340" y="556" width="170" height="22" rx="11" fill="#bfdbfe" opacity=".5"/><path d="M 700 420 Q 800 470 860 380" fill="none" stroke="#5eead4" stroke-width="12" stroke-linecap="round" stroke-dasharray="4 30" opacity=".7"/><path d="M 1190 130 L 770 310 L 910 370 Z" fill="url(#teal)" stroke="#ccfbf1" stroke-width="6" stroke-linejoin="round"/><path d="M 1190 130 L 910 370 L 960 540 Z" fill="#0f766e" stroke="#ccfbf1" stroke-width="6" stroke-linejoin="round"/><path d="M 1190 130 L 960 540 L 1010 420 L 1190 130 Z" fill="url(#teal)" stroke="#ccfbf1" stroke-width="6" stroke-linejoin="round"/>
+</svg>
